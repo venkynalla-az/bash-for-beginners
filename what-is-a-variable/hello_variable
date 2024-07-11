@@ -2,4 +2,8 @@
 
 # Welcome to your first Bash Script
 
-echo 'Hello World!'
+hello_message='Hello you!'
+current_dir=$(pwd)
+readonly no_change_variable="blu"
+
+echo "$hello_message from $current_dir"
